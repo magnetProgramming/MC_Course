@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mc_course",
+  "version": "${version}",
+  "name": "MC Course",
+  "description": "",
+  "authors": [
+    "magnetProgramming"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.magnet.mc_course.client.MCCourseClient"
+    ],
+    "main": [
+      "com.magnet.mc_course.MCCourse"
+    ],
+    "fabric-datagen": [
+      "com.magnet.mc_course.MCCourseDataGenerator"
+    ]
+  },
+  "mixins": [
+    "mc_course.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
