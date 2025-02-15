@@ -1,4 +1,7 @@
 {
   "item.mc_course.pink_garnet": "Pink Garnet",
-  "item.mc_course.raw_pink_garnet": "Raw Pink Garnet"
+  "item.mc_course.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.mc_course.pink_garnet_block": "Pink Garnet Block",
+  "block.mc_course.raw_pink_garnet_block": "Raw Pink Garnet Block"
 }

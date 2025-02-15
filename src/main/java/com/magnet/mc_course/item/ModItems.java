@@ -1,6 +1,7 @@
 package com.magnet.mc_course.item;
 
 import com.magnet.mc_course.MCCourse;
+import com.magnet.mc_course.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -26,6 +27,9 @@ public class ModItems
     {
         entries.add(PINK_GARNET);
         entries.add(RAW_PINK_GARNET);
+
+        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
     }
 
     public static void registerModItems() {

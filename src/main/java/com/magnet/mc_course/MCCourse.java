@@ -1,5 +1,6 @@
 package com.magnet.mc_course;
 
+import com.magnet.mc_course.block.ModBlocks;
 import com.magnet.mc_course.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class MCCourse implements ModInitializer {
     public void onInitialize()
     {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }
